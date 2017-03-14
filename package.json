@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w server --debug --inspect --harmony index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyh825/nodejs-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyh825/nodejs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/zyh825/nodejs-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "moment": "^2.17.1",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "ramda": "^0.23.0",
+    "winston": "^2.3.1",
+    "winston-graylog2": "^0.6.0"
+  }
+}
